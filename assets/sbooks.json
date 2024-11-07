@@ -1,0 +1,1530 @@
+[
+    {
+        "id": 0,
+        "title": "Портрет Дориана Грея",
+        "author": "Оскар Уайльд",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/67/de/01922747-7bd8-78cc-ad92-9c4d898767de.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 1,
+        "title": "Спеши любить",
+        "author": "Николас Спаркс",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/4b/96/018fa175-5ca2-73d5-89b0-2cade26b4b96.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 2,
+        "title": "Грозовой перевал",
+        "author": "Эмили Джейн Бронте",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/57/5b/018fa205-428e-7c03-934f-c95c0275575b.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 3,
+        "title": "Джейн Эйр",
+        "author": "Шарлотта Бронте",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/98/b0/018fa16e-6ebc-77ae-ae1f-a33b72f298b0.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 4,
+        "title": "Повелитель мух",
+        "author": "Уильям Голдинг",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/ec/17/0192a2e5-0bd2-7d50-968d-c18e0c2fec17.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 5,
+        "title": "Гордость и предубеждение",
+        "author": "Джейн Остен",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/bb/7a/018fa152-918c-7c2f-b331-faff3253bb7a.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 6,
+        "title": "Маленькие женщины",
+        "author": "Луиза Мэй Олкотт",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/59/f8/018fa1d4-656e-7931-a021-1f7e67ef59f8.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 7,
+        "title": "Заводной апельсин",
+        "author": "Энтони Бёрджесс",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/c8/eb/0190020e-ff03-763e-84ca-12e21886c8eb.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 8,
+        "title": "1984 (новый перевод)",
+        "author": "Джордж Оруэлл",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/8d/da/018fa27b-966f-7295-b2fa-8697f6918dda.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 9,
+        "title": "Три товарища",
+        "author": "Эрих Ремарк",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/10/1d/0190e2dd-e926-7325-adda-3ffaf15e101d.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 10,
+        "title": "Мартин Иден",
+        "author": "Джек Лондон",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/2c/f4/018fa154-a4d8-7198-a79a-7305136f2cf4.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 11,
+        "title": "Дневник памяти",
+        "author": "Николас Спаркс",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/64/40/018fa15e-4970-78eb-aac3-fa23826c6440.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 12,
+        "title": "Великий Гэтсби",
+        "author": "Френсис Скотт Фицджеральд",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/74/71/018fa150-ea8a-7c33-8e17-f1af2c6a7471.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 13,
+        "title": "День триффидов",
+        "author": "Джон Уиндем",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/f6/5a/018fa160-df63-70df-8577-3855733bf65a.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 14,
+        "title": "Человек недостойный",
+        "author": "Дадзай Осаму",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/c5/3c/018fa2fc-8b34-713e-bb17-017ad29cc53c.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 15,
+        "title": "Убить пересмешника…",
+        "author": "Харпер Ли",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/df/e8/018fa153-7d6c-73f4-96c5-15c6ceccdfe8.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 16,
+        "title": "Триумфальная арка",
+        "author": "Эрих Ремарк",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/93/0a/018fa18a-3433-77fe-97d3-e08fd72c930a.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 17,
+        "title": "Маленький принц",
+        "author": "Антуан де Сент-Экзюпери",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/6a/d9/018fa1c2-2195-7e5a-ac96-9ec74f0b6ad9.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 18,
+        "title": "Маленькие женщины (новый перевод)",
+        "author": "Луиза Мэй Олкотт",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/3f/88/018fa2bc-3629-7d54-ad1a-b1f575a03f88.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 19,
+        "title": "Скорбь Сатаны",
+        "author": "Мария Корелли",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/83/e4/018fa1dc-ca2b-7068-8f7b-ce7d9a4f83e4.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 20,
+        "title": "Ваш покорный слуга кот",
+        "author": "Нацумэ Сосэки",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/49/7b/018fa2ad-f51d-71e4-bac0-f9e98b38497b.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 21,
+        "title": "Бойцовский клуб",
+        "author": "Чак Паланик",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/48/64/018febcd-93e2-7fc8-909f-5decd9964864.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 22,
+        "title": "На Западном фронте без перемен",
+        "author": "Эрих Ремарк",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/ef/8a/018fa150-44c7-7fab-8606-3b9e19b4ef8a.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 23,
+        "title": "Ночь в Лиссабоне",
+        "author": "Эрих Ремарк",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/22/c2/018fa176-3e11-70e0-99db-339055f122c2.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 24,
+        "title": "Кэрри",
+        "author": "Стивен Кинг",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/e8/74/018fa154-acc2-758a-816e-74f86993e874.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 25,
+        "title": "Поющие в терновнике",
+        "author": "Колин Маккалоу",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/67/71/0191827b-135d-7ea1-ba8c-442f87506771.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 26,
+        "title": "Приют Грез",
+        "author": "Эрих Ремарк",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/45/40/018ee40e-0712-7689-8ba6-975c90d64540.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 27,
+        "title": "На вилле",
+        "author": "Уильям Сомерсет Моэм",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/61/09/018fa258-ab3d-7231-8231-e60a8bf26109.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 28,
+        "title": "Театр",
+        "author": "Уильям Сомерсет Моэм",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/50/13/018fa156-b8ca-7091-a4ae-15a3b4855013.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 29,
+        "title": "35 кило надежды",
+        "author": "Анна Гавальда",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/62/f5/018fa1c9-f914-7070-b105-f73e99f162f5.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 30,
+        "title": "Демиан",
+        "author": "Герман Гессе",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/b4/a0/018fa158-2546-70ab-a791-28f31ae4b4a0.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 31,
+        "title": "Аэропорт: роман",
+        "author": "Артур Хейли",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/b8/a1/018fa158-2974-7d40-befe-298ea81eb8a1.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 32,
+        "title": "Жизнь взаймы, или У неба любимчиков нет",
+        "author": "Эрих Ремарк",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/c7/6d/018fa1b5-1a8a-7576-ba3e-669eb849c76d.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 33,
+        "title": "Посторонний",
+        "author": "Альбер Камю",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/67/74/018fa22f-3a20-78b7-a68e-0254c0596774.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 34,
+        "title": "Алхимик",
+        "author": "Пауло Коэльо",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/38/97/018fa154-84f5-74b7-9376-2fb5838c3897.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 35,
+        "title": "Призрак Оперы",
+        "author": "Гастон Леру",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/97/f1/018fa15d-ef97-7ce5-b25f-e922745697f1.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 36,
+        "title": "Призрак дома на холме",
+        "author": "Ширли Джексон",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/c6/c2/0192a315-d7a0-7552-9aa7-62180a18c6c2.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 37,
+        "title": "Мемуары гейши",
+        "author": "Артур Голден",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/b3/10/018fa150-3d06-7425-b92f-19bf2803b310.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 38,
+        "title": "Под стеклянным колпаком",
+        "author": "Сильвия Плат",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/0e/d5/018fa17a-0b42-75b8-a171-76f464090ed5.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 39,
+        "title": "Клуб самоубийц",
+        "author": "Роберт Льюис Стивенсон",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/68/03/018fa1d2-0248-7fd7-ab05-5b52ee0c6803.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 40,
+        "title": "Куколки",
+        "author": "Джон Уиндем",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/44/be/018fa173-ed45-7bea-ad85-af6dab8444be.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 41,
+        "title": "Сияние",
+        "author": "Стивен Кинг",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/28/57/018fa1b7-42db-7b88-b11b-3acbcc1d2857.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 42,
+        "title": "Овод",
+        "author": "Этель Войнич",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/07/2d/018fa157-349f-72b7-abfd-47fa430e072d.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 43,
+        "title": "Отель с привидениями",
+        "author": "Уильям Уилки Коллинз",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/ba/3f/018fa20f-392a-790d-855d-fa3fc1e6ba3f.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 44,
+        "title": "Агнес Грей",
+        "author": "Энн Бронте",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/e0/2a/0192033b-58f2-79fc-b142-b8db7f08e02a.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 45,
+        "title": "Искра жизни",
+        "author": "Эрих Ремарк",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/42/07/018fa15d-1bda-7134-b114-a5981d844207.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 46,
+        "title": "Ставок больше нет",
+        "author": "Жан Сартр",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/17/b1/018fa1e4-50b1-7ac6-b393-865f33fc17b1.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 47,
+        "title": "Поллианна. Поллианна вырастает",
+        "author": "Элинор Портер",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/2e/c8/018fa21f-d747-7a73-ba72-acbd0ce42ec8.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 48,
+        "title": "О дивный новый мир",
+        "author": "Олдос Леонард Хаксли",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/fc/7e/018fa2c5-b1e5-71f9-9175-f587a53afc7e.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 49,
+        "title": "Незнакомка из Уайлдфелл-Холла",
+        "author": "Энн Бронте",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/22/9a/018fa2b9-f0bc-7ed3-89c4-8d99e6c1229a.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 50,
+        "title": "Солярис",
+        "author": "Станислав Лем",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/52/1f/018fa157-205e-7b85-b456-ce8ef0c6521f.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 51,
+        "title": "Странник по звездам",
+        "author": "Джек Лондон",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/ce/24/018fa182-da60-7d1b-ab53-6f9cab94ce24.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 52,
+        "title": "Отель",
+        "author": "Артур Хейли",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/3f/4e/018fa155-10af-71e2-a899-20a579093f4e.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 53,
+        "title": "О мышах и людях. Жемчужина",
+        "author": "Джон Стейнбек",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/95/12/018fa171-fb0d-79fa-9dcb-37b101049512.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 54,
+        "title": "Сто лет одиночества: роман",
+        "author": "Габриэль Гарсиа Маркес",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/ec/91/018fa158-387b-7841-8cec-629a98b3ec91.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 55,
+        "title": "Скотный Двор. Эссе",
+        "author": "Джордж Оруэлл",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/5e/52/018fa179-e7c3-77fd-8182-4c3b772e5e52.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 56,
+        "title": "Автостопом по Галактике. Ресторан \"У конца Вселенной\"",
+        "author": "Дуглас Адамс",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/47/b6/018fa158-094a-73fe-be37-f720faf947b6.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 57,
+        "title": "Тень ветра",
+        "author": "Карлос Сафон",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/39/fc/018fa153-033e-7513-be6a-8ca56f7c39fc.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 58,
+        "title": "Тюремная исповедь",
+        "author": "Оскар Уайльд",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/73/e7/018fa270-6eda-7b51-a00a-0433597e73e7.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 59,
+        "title": "Зов Ктулху",
+        "author": "Говард Филлипс Лавкрафт",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/02/15/018fa172-e906-7c28-b4b5-32c8d9f10215.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 60,
+        "title": "Зеленая миля",
+        "author": "Стивен Кинг",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/6f/46/018fa152-fa30-77cb-b989-5a9e5a856f46.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 61,
+        "title": "Война миров",
+        "author": "Герберт Уэллс",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/00/4e/0192a2e5-0e6d-7a65-9a2f-223a0527004e.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 62,
+        "title": "Маг",
+        "author": "Уильям Сомерсет Моэм",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/1b/5f/018fa19b-3fac-7ae0-beb6-be2416da1b5f.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 63,
+        "title": "120 дней Содома",
+        "author": "Донасьен Альфонс Франсуа Сад де",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/b4/00/018fa1b4-889f-73c6-9abe-ab1f6caeb400.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 64,
+        "title": "Тошнота",
+        "author": "Жан Сартр",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/3b/0b/018fa14f-bc8a-7301-a141-1f3d5c863b0b.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 65,
+        "title": "Узорный покров",
+        "author": "Уильям Сомерсет Моэм",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/ae/08/0191b5fb-0d77-7e22-b429-afdd452dae08.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 66,
+        "title": "Код да Винчи",
+        "author": "Дэн Браун",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/ed/fd/018fa173-2abf-7e2a-bb84-c32834a0edfd.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 67,
+        "title": "Чума",
+        "author": "Альбер Камю",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/84/45/018febaf-d844-747d-8136-60bf74028445.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 68,
+        "title": "Собор Парижской Богоматери",
+        "author": "Виктор Мари Гюго",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/9c/53/018fa161-27bf-7b85-858e-af4ebb1b9c53.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 69,
+        "title": "Время жить и время умирать",
+        "author": "Эрих Ремарк",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/6d/13/018fa1af-f673-7abf-a22b-4eb75d0a6d13.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 70,
+        "title": "Своя комната",
+        "author": "Вирджиния Вулф",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/99/92/018fa1d4-3a35-709d-b72d-a3cd6dbf9992.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 71,
+        "title": "Одинокий мужчина",
+        "author": "Кристофер Ишервуд",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/f0/b3/018fa1bf-6f64-7fe2-9b63-d9ae78d4f0b3.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 72,
+        "title": "Дюна",
+        "author": "Фрэнк Герберт",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/bb/1d/018fa297-4371-760d-9af1-f1aa6eabbb1d.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 73,
+        "title": "Человек, который смеется",
+        "author": "Виктор Мари Гюго",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/a8/8c/018fa159-d463-712a-acff-a9346eeca88c.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 74,
+        "title": "Хорошие жены",
+        "author": "Луиза Мэй Олкотт",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/fb/0f/018fa2be-bbf8-7601-9586-827d4b4ffb0f.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 75,
+        "title": "Ангелы и демоны",
+        "author": "Дэн Браун",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/2e/42/018fa196-f628-7aab-9c4c-bc47e7962e42.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 76,
+        "title": "Маленькая хозяйка Большого дома",
+        "author": "Джек Лондон",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/a8/bf/018fa175-4ebc-735d-8a50-05e97efaa8bf.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 77,
+        "title": "Милый друг",
+        "author": "Ги де Мопассан",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/07/cc/018fa160-695b-7617-a709-310a170b07cc.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 78,
+        "title": "Осиная Фабрика",
+        "author": "Иэн Бэнкс",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/9c/8b/018fa1ba-c4f1-7e0f-a8b9-94c01c9a9c8b.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 79,
+        "title": "Загадка Cтарого Леса",
+        "author": "Дино Буццати",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/46/6f/0192087b-6174-753f-94eb-5e59f750466f.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 80,
+        "title": "Бремя страстей человеческих",
+        "author": "Уильям Сомерсет Моэм",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/96/65/0191fe15-06b6-7cfa-b234-9b2d3c189665.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 81,
+        "title": "Бойня №5",
+        "author": "Курт Воннегут",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/3c/ec/018fa14f-c375-72f6-9cdf-a89275573cec.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 82,
+        "title": "Процесс",
+        "author": "Франц Кафка",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/b6/39/018fa151-2f22-7eef-aff3-ce23004cb639.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 83,
+        "title": "Превращение",
+        "author": "Франц Кафка",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/06/fa/018fa176-f9ba-71d1-ad7b-c0bf1b6506fa.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 84,
+        "title": "Черный обелиск",
+        "author": "Эрих Ремарк",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/6d/85/018fa157-4dab-7e7f-b2d3-d269697b6d85.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 85,
+        "title": "Свет в океане",
+        "author": "М.Л. Стедман",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/57/ce/018fa275-d34e-7596-aa33-2fb2aa9a57ce.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 86,
+        "title": "Виллет",
+        "author": "Шарлотта Бронте",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/45/35/018fa157-c0e9-7748-a460-ca945a2d4535.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 87,
+        "title": "Колыбель для кошки: роман",
+        "author": "Курт Воннегут",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/3f/b7/018fa156-1800-7564-b92b-87bf20b43fb7.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 88,
+        "title": "Трое в лодке, не считая собаки",
+        "author": "Джером Клапка Джером",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/02/9e/01919724-d75d-75bc-b38f-4fba0b11029e.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 89,
+        "title": "Дама с камелиями",
+        "author": "Александр Дюма (отец), Александр Дюма (сын)",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/25/f3/018fa1a3-a8bd-7cc6-864e-873fac5425f3.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 90,
+        "title": "Мизери",
+        "author": "Стивен Кинг",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/6c/1b/018fa227-aab9-7216-9e39-afaaf4066c1b.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 91,
+        "title": "Белый Клык. Зов предков",
+        "author": "Джек Лондон",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/e4/46/018fa16b-f8f4-7b25-9219-fae08afce446.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 92,
+        "title": "ЭксклюзивКлассика Шелли Франкенштейн, или Современный Прометей",
+        "author": "Мэри Шелли",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/a2/5d/018fa15b-fef6-73b0-9c2c-f8cffbbaa25d.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 93,
+        "title": "Ярмарка тщеславия",
+        "author": "Уильям Мейкпис Теккерей",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/79/f2/0192033c-bca5-7c33-a521-7d7c388b79f2.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 94,
+        "title": "Опрокинутый мир",
+        "author": "Кристофер Прист",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/04/90/018fa195-d226-75a4-8de9-8f276bde0490.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 95,
+        "title": "Госпожа Бовари",
+        "author": "Гюстав Флобер",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/dd/a3/018fa175-bccd-71e6-a08f-02d0e6d1dda3.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 96,
+        "title": "Выбор : роман",
+        "author": "Николас Спаркс",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/35/7c/018fa18d-3f62-7b37-b06c-69258ed6357c.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 97,
+        "title": "Белый олеандр",
+        "author": "Джанет Фитч",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/9e/88/018fa1a2-bd15-76f9-a9db-c26fbd439e88.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 98,
+        "title": "11/22/63",
+        "author": "Стивен Кинг",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/4d/0c/018fa1f6-cd6b-79c1-8bc8-23f9a0584d0c.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 99,
+        "title": "Оно",
+        "author": "Стивен Кинг",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/54/da/018fa251-20b5-7876-9e50-69358ae454da.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 100,
+        "title": "Большие надежды",
+        "author": "Чарльз Диккенс",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/1c/77/019038e4-b5ee-7199-97f7-830ec5621c77.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 101,
+        "title": "Колыбельная",
+        "author": "Чак Паланик",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/ef/5d/018fa1fc-79b3-71f2-9909-2aee59bcef5d.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 102,
+        "title": "Мы всегда жили в замке",
+        "author": "Ширли Джексон",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/74/2f/018fa1fe-9a72-7c58-8d02-59da0fe0742f.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 103,
+        "title": "Худеющий",
+        "author": "Стивен Кинг",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/ae/24/018fa241-f75b-7141-8233-00d924e6ae24.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 104,
+        "title": "Эмма",
+        "author": "Джейн Остен",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/a4/6d/018fa188-be1c-7bd7-993c-80c3df2fa46d.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 105,
+        "title": "Дочь священника : роман",
+        "author": "Джордж Оруэлл",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/af/a8/018fa151-3305-7e78-aafb-04d63d25afa8.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 106,
+        "title": "Роза и семь братьев",
+        "author": "Луиза Мэй Олкотт",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/bc/04/018fa25a-62de-7ed8-9bae-dc671572bc04.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 107,
+        "title": "Гений и богиня",
+        "author": "Олдос Леонард Хаксли",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/77/d4/018fa24b-b556-7296-9a7c-db7570a277d4.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 108,
+        "title": "Рождественские каникулы",
+        "author": "Уильям Сомерсет Моэм",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/f9/1e/0192222c-b1bc-7bec-988a-0b160286f91e.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 109,
+        "title": "К востоку от Эдема",
+        "author": "Джон Стейнбек",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/98/e9/01902e99-6afd-764b-bf81-2fe2630c98e9.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 110,
+        "title": "Мертвая комната",
+        "author": "Уильям Уилки Коллинз",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/52/d2/018fa259-2589-70c4-b4c2-428204ee52d2.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 111,
+        "title": "Американская трагедия",
+        "author": "Теодор Драйзер",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/4f/f5/018fa1c3-7b40-7932-b0dd-3f5588764ff5.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 112,
+        "title": "Непобедимый",
+        "author": "Станислав Лем",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/ab/c0/018fa161-c655-7c97-b3f8-6d04466babc0.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 113,
+        "title": "На обратном пути",
+        "author": "Эрих Ремарк",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/99/c6/018fa1a6-91f1-718e-b2a6-4c2cb83399c6.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 114,
+        "title": "Голод",
+        "author": "Кнут Гамсун",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/4c/01/018fa197-73af-7acc-8c07-fea71b444c01.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 115,
+        "title": "Сиддхартха. Путешествие к земле Востока",
+        "author": "Герман Гессе",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/b8/99/018fa159-d19d-79d7-93d5-984cde49b899.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 116,
+        "title": "Не только апельсины",
+        "author": "Джанет Уинтерсон",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/f6/34/018fa245-0ad2-7410-80ba-01af3914f634.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 117,
+        "title": "Доводы рассудка",
+        "author": "Джейн Остен",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/0a/8c/018fa1c8-3c9b-7742-ac6d-253df7660a8c.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 118,
+        "title": "Жизнь",
+        "author": "Ги де Мопассан",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/33/95/018fa177-8966-7bc6-8580-878393c33395.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 119,
+        "title": "Тихая гавань",
+        "author": "Николас Спаркс",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/20/fd/018fa20e-d2e1-7a4c-ba7f-56387e3820fd.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 120,
+        "title": "Пикник у Висячей скалы",
+        "author": "Джоан Линдси",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/c2/58/018fa277-d60f-7434-a028-060f00a2c258.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 121,
+        "title": "Нортенгерское аббатство",
+        "author": "Джейн Остен",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/fd/e5/018fa18d-1e5f-744d-904b-cb9768dffde5.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 122,
+        "title": "На маяк",
+        "author": "Вирджиния Вулф",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/8d/24/018fa1a7-33aa-761c-983e-c96bdf378d24.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 123,
+        "title": "Учитель",
+        "author": "Шарлотта Бронте",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/9a/b7/018fa19a-2252-7755-8a55-ccae69149ab7.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 124,
+        "title": "Дамское счастье",
+        "author": "Эмиль Золя",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/e8/e5/018fa17a-2167-7042-b833-29ae733de8e5.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 125,
+        "title": "Эдем",
+        "author": "Станислав Лем",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/52/6f/01917d54-58d5-7052-aa87-14cfc199526f.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 126,
+        "title": "Степной волк",
+        "author": "Герман Гессе",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/87/81/018fa155-1c1b-727a-89f2-a2b413db8781.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 127,
+        "title": "Цвет пурпурный",
+        "author": "Элис Уокер",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/6f/c7/018fa1fc-b994-7ab0-a113-75a5039f6fc7.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 128,
+        "title": "Ребенок Розмари",
+        "author": "Айра Левин",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/52/c8/018fa20c-d90c-7134-9fab-587e4d0952c8.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 129,
+        "title": "Ромео и Джульетта. Отелло: трагедиии",
+        "author": "Уильям Шекспир",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/38/24/018fa179-f81a-7e71-9285-54768d233824.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 130,
+        "title": "Унесенные ветром. Том 1",
+        "author": "Маргарет Митчелл",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/af/c5/018fa1fc-f269-7ed4-9bd9-7fe08c40afc5.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 131,
+        "title": "Люси Краун",
+        "author": "Ирвин Шоу",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/a5/f6/018fa19e-fac0-7723-b140-a5bad8cba5f6.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 132,
+        "title": "Нетерпение сердца : роман",
+        "author": "Стефан Цвейг",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/58/e0/018fa18c-1838-7cc8-b83b-ccd81f2858e0.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 133,
+        "title": "Сага о Форсайтах",
+        "author": "Джон Голсуорси",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/05/13/018fa1ff-56ee-7700-862f-abcf85b80513.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 134,
+        "title": "Маленькие мужчины",
+        "author": "Луиза Мэй Олкотт",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/0b/93/01926f72-d6cb-742b-bfb7-d50d6c130b93.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 135,
+        "title": "Путешествие к центру Земли",
+        "author": "Жюль Габриэль Верн",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/22/1b/018fa173-0c78-7b9d-bae5-f2fbc1c4221b.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 136,
+        "title": "Страх",
+        "author": "Ги де Мопассан",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/31/df/018fa1f4-e2b3-7afe-ab3d-9ce905bd31df.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 137,
+        "title": "Лунный камень. Роман",
+        "author": "Уильям Уилки Коллинз",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/57/06/018fa25c-1414-710e-8a0d-9b6fecf65706.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 138,
+        "title": "Фауст",
+        "author": "Иоганн Вольфганг фон Гёте",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/c6/cc/018fa170-ad8a-7e02-927f-6fb6b5ecc6cc.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 139,
+        "title": "Последний день приговоренного к смерти",
+        "author": "Виктор Мари Гюго",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/7c/2b/018fa1e5-a64c-7329-90d0-026eb0f97c2b.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 140,
+        "title": "\"Скажи мне, что ты меня любишь...\"",
+        "author": "Эрих Ремарк",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/2e/00/018fa252-d70b-7eb6-aef3-78e53fd62e00.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 141,
+        "title": "Письма Баламута. Баламут предлагает тост",
+        "author": "Клайв Льюис",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/b6/b9/018fa1b3-f622-7c50-b570-dff7a4beb6b9.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 142,
+        "title": "Север и Юг",
+        "author": "Элизабет Гаскелл",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/36/08/018fa190-b23a-7b37-a332-2c8a6ef33608.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 143,
+        "title": "Чувство и чувствительность",
+        "author": "Джейн Остен",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/4c/f5/018fa173-afc6-7cba-9269-d8ebef054cf5.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 144,
+        "title": "Богач, бедняк",
+        "author": "Ирвин Шоу",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/dd/78/018fa158-2758-712f-9cde-d61a0166dd78.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 145,
+        "title": "Замок",
+        "author": "Франц Кафка",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/3b/7e/018fa154-73db-751d-98f4-40b0acc93b7e.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 146,
+        "title": "Дом с привидениями",
+        "author": "Вирджиния Вулф",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/4b/c1/018fa242-7ede-7a02-9795-49e472704bc1.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 147,
+        "title": "Автостопом по Галактике. Опять в путь",
+        "author": "Дуглас Адамс",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/9a/4b/018fa154-9e14-7909-996e-ddbc68e79a4b.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 148,
+        "title": "Вспоминая моих несчастных шлюшек: повесть",
+        "author": "Габриэль Гарсиа Маркес",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/1e/d8/01922746-131c-7c94-95b0-7d3b2fc81ed8.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 149,
+        "title": "Детективное агентство Дирка Джентли",
+        "author": "Дуглас Адамс",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/e7/d8/018fa17f-c36b-7958-89db-2c58c20ee7d8.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 150,
+        "title": "О любви и прочих бесах",
+        "author": "Габриэль Гарсиа Маркес",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/d2/1c/018fa153-e856-70fc-8e60-cac95a99d21c.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 151,
+        "title": "Божественная Комедия",
+        "author": "Данте Алигьери",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/ae/d8/018fa174-e573-7508-bbba-f39ff66faed8.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 152,
+        "title": "Проект \"Аве Мария\"",
+        "author": "Энди Вейер",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/4e/e9/018fa2e5-0d2d-7a0b-9a21-ed5a94554ee9.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 153,
+        "title": "Старик и море. Зеленые холмы Африки (Новый Перевод)",
+        "author": "Эрнест Миллер Хемингуэй",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/20/74/018fa169-26e1-7688-9519-2385f3fe2074.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 154,
+        "title": "Детектив",
+        "author": "Артур Хейли",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/08/a4/018fa1f6-cf55-7a92-976c-cd24ae5e08a4.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 155,
+        "title": "На дороге",
+        "author": "Джек Керуак",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/1a/4c/018fa20e-e90b-7594-8a80-376a570c1a4c.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 156,
+        "title": "Маленькая принцесса",
+        "author": "Фрэнсис Ходжсон Бернетт",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/44/f9/0191df5c-aa23-7871-908e-81926d8444f9.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 157,
+        "title": "Арсен Люпен",
+        "author": "Морис Леблан",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/7e/9d/018fa249-fc59-7a35-a264-9414cb0d7e9d.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 158,
+        "title": "В стране водяных",
+        "author": "Рюноскэ Акутагава",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/57/00/018fa22a-5ce1-78b3-b5a1-81117ea25700.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 159,
+        "title": "Ночной портье",
+        "author": "Ирвин Шоу",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/a0/1f/018fa156-11c4-7035-a029-cedcd0cda01f.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 160,
+        "title": "Марина : роман",
+        "author": "Карлос Сафон",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/6f/b1/018fa174-674c-78da-9130-02d4bdc26fb1.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 161,
+        "title": "Затерянный мир",
+        "author": "Артур Дойл",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/6b/1b/018fa1fb-d5fe-7d9b-b2ce-b40076536b1b.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 162,
+        "title": "Сердца трех",
+        "author": "Джек Лондон",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/d4/30/018fa15f-b77e-7a70-a7ca-9413c112d430.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 163,
+        "title": "Полковнику никто не пишет : повесть",
+        "author": "Габриэль Гарсиа Маркес",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/42/7a/018fa177-1623-7011-9e9b-ef46d510427a.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 164,
+        "title": "Человек-зверь",
+        "author": "Эмиль Золя",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/e2/80/018fa258-cbb2-7b10-8922-5f100cc8e280.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 165,
+        "title": "Проклятое время",
+        "author": "Габриэль Гарсиа Маркес",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/b2/e4/018fa167-e4c1-7c02-b993-4b334228b2e4.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 166,
+        "title": "Мертвая зона",
+        "author": "Стивен Кинг",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/09/5d/018fa157-48d8-73a3-9838-32cd703b095d.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 167,
+        "title": "Хрупкое равновесие",
+        "author": "Рохинтон Мистри",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/cd/3a/018fa244-ce77-7a81-8249-c1cccac4cd3a.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 168,
+        "title": "Мессия Дюны: фантастический роман",
+        "author": "Фрэнк Герберт",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/f2/1f/018fa183-7a40-73eb-bfe6-df6458b1f21f.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 169,
+        "title": "Ворота Расёмон",
+        "author": "Рюноскэ Акутагава",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/79/b5/018fa2f6-3d0e-7709-b14d-7cd1016f79b5.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 170,
+        "title": "Реквием по мечте",
+        "author": "Хьюберт Селби-мл.",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/6e/b8/018fa2af-6e90-747c-8535-6e7e8ae56eb8.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 171,
+        "title": "Удушье",
+        "author": "Чак Паланик",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/5a/d3/018fa231-e088-7b66-89d3-fce7897b5ad3.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 172,
+        "title": "Зима тревоги нашей (новый перевод)",
+        "author": "Джон Стейнбек",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/69/50/018fa16c-386e-7007-b55b-d6c696aa6950.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 173,
+        "title": "Праздник, который всегда с тобой",
+        "author": "Эрнест Миллер Хемингуэй",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/17/a6/018fa153-6aff-7732-aa9c-ed20db4917a6.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 174,
+        "title": "Хоббит",
+        "author": "Джон Рональд Руэл Толкин",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/78/09/0190e2d6-b4a6-7afd-a245-a9a07a8b7809.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 175,
+        "title": "Страх и отвращение в Лас-Вегасе",
+        "author": "Хантер Стоктон Томпсон",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/34/2c/018fa157-bcd9-79ef-8436-b021933b342c.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 176,
+        "title": "Некрономикон. Книга запретных тайн",
+        "author": "Говард Филлипс Лавкрафт",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/90/f0/018fa1e6-f94b-77cd-8e2c-69ec4daa90f0.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 177,
+        "title": "Любовник леди Чаттерли",
+        "author": "Дэвид Лоуренс",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/5e/a9/018fa1f4-866e-77bf-bf8e-7c3aa8d75ea9.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 178,
+        "title": "Этюд в багровых тонах. Знак четырех. Записки о Шерлоке Холмсе",
+        "author": "Артур Дойл",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/44/92/0190e2df-74fe-7331-a5e7-49a605c54492.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 179,
+        "title": "Сильнодействующее лекарство",
+        "author": "Артур Хейли",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/0b/e0/018fa221-ff90-73d9-aa26-21d12a210be0.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 180,
+        "title": "Утраченный символ",
+        "author": "Дэн Браун",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/fc/4c/018fa1f1-1e99-743a-9777-22c862c4fc4c.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 181,
+        "title": "Время - деньги. Автобиография",
+        "author": "Бенджамин Франклин",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/d3/f5/018fa1e8-8939-72c9-97f8-90d14f6ad3f5.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 182,
+        "title": "Вендетта, или История всеми забытого",
+        "author": "Мария Корелли",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/b5/fa/018fa253-8ecc-75f2-92ef-51de4fd2b5fa.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 183,
+        "title": "Машина времени. Человек-невидимка: романы",
+        "author": "Герберт Уэллс",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/be/c5/018fa158-5c67-7711-bf96-f5fe3dd5bec5.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 184,
+        "title": "Женщина в белом",
+        "author": "Уильям Уилки Коллинз",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/e4/ed/018fa1ac-4a91-7b05-ab4b-87f897e2e4ed.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 185,
+        "title": "Да здравствует фикус! : роман",
+        "author": "Джордж Оруэлл",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/a3/9b/018fa157-1c21-7bcd-8635-47f04e40a39b.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 186,
+        "title": "Рубаи",
+        "author": "Омар Хайям",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/a3/8c/018fa298-681e-739f-a4f1-b4419aada38c.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 187,
+        "title": "Семя желания",
+        "author": "Энтони Бёрджесс",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/ce/fa/018fa15e-d061-7677-baed-3b3b8c19cefa.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 188,
+        "title": "Игра в классики",
+        "author": "Хулио Кортасар",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/53/32/018fa155-fece-72e8-b408-a79b0b1b5332.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 189,
+        "title": "Лучшее во мне: роман",
+        "author": "Николас Спаркс",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/7e/3e/018fa2c9-2f91-7216-b40f-6ada5cc77e3e.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    },
+    {
+        "id": 190,
+        "title": "Падение",
+        "author": "Альбер Камю",
+        "image_url": "https://content.img-gorod.ru/pim/products/images/45/6e/018fa22f-3bca-7c2d-8493-78d509c1456e.jpg?width=200&height=280&fit=bounds",
+        "holders": [],
+        "isFree": "true"
+    }
+]
