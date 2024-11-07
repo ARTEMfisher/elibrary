@@ -1,8 +1,8 @@
-import 'package:elibrary/adminpage.dart';
 import 'package:flutter/material.dart';
-import 'package:elibrary/auth.dart';
-import 'package:elibrary/mainpage.dart';
-import 'package:elibrary/reg.dart';
+import 'adminpage.dart';
+import 'auth.dart';
+import 'mainpage.dart';
+import 'reg.dart';
 import 'userpage.dart';
 import 'usersList.dart';
 
