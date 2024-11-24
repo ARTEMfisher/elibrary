@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:elibrary/routes.dart';
-import 'package:window_size/window_size.dart';
 
 void main()  {
   WidgetsFlutterBinding.ensureInitialized();
@@ -18,7 +17,7 @@ class MyApp extends StatelessWidget {
       initialRoute: AppRoutes.auth,
       debugShowCheckedModeBanner: false,
       theme:ThemeData.dark(),
-      //home: Authorise(),
+      
     );
   }
 }

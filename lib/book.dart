@@ -1,5 +1,6 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
+import 'variables.dart';
 
 
 
@@ -33,18 +34,15 @@ class Book {
 }
 
 class BookLoader {
-  List<Book> books = []; // Список книг
-
-  // Метод для загрузки книг из API
+  List<Book> books = []; 
   Future<void> loadBooks() async {
-    final response = await http.get(Uri.parse('http://45.142.122.187:5000/books'));
+    final response = await http.get(Uri.parse('${ip}books'));
 
     if (response.statusCode == 200) {
-      // Если запрос успешен, преобразуем JSON в список книг
       final List<dynamic> decodedJson = json.decode(response.body);
       books = decodedJson.map((json) => Book.fromJson(json)).toList();
     } else {
-      throw Exception('Не удалось загрузить книги'); // Обработка ошибки
+      throw Exception('Не удалось загрузить книги'); 
     }
   }
 }

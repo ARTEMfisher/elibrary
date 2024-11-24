@@ -1,4 +1,3 @@
-import 'package:elibrary/routes.dart';
 import 'package:flutter/material.dart';
 import 'variables.dart';
 import 'api.dart';
@@ -16,10 +15,9 @@ class _UserPageState extends State<UserPage> {
   @override
   void initState() {
     super.initState();
-    _requests = fetchUserRequestsByID(id); // Загрузка данных о заявках
+    _requests = fetchUserRequestsByID(id); 
   }
 
-  // Функция для обновления данных
   Future<void> _refreshRequests() async {
     setState(() {
       _requests = fetchUserRequestsByID(id);
@@ -33,7 +31,7 @@ class _UserPageState extends State<UserPage> {
         title: const Text('Страница пользователя'),
       ),
       body: RefreshIndicator(
-        onRefresh: _refreshRequests, // обновление при свайпе вниз
+        onRefresh: _refreshRequests, 
         child: FutureBuilder<List<dynamic>>(
           future: _requests,
           builder: (context, snapshot) {
@@ -52,8 +50,31 @@ class _UserPageState extends State<UserPage> {
                   return Card(
                     child: ListTile(
                       onTap: (){
-                        if(request['status']){
-                          returnBook(request['id'], id,request['book_id']);
+                        if(request['status'] == null || request['status'] == false){
+                          showDialog(context: context, builder: (context)=>
+                          AlertDialog.adaptive(
+                            title:const Text('Вы пока не можете выполнить действий'),
+                            actions: [ElevatedButton(onPressed: (){
+                              Navigator.pop(context);
+                            }, child:const Text('Ок'))
+                          ],
+                          )
+                          );
+                        }else{
+                          showDialog(context: context, builder: (context)=>
+                          AlertDialog.adaptive(
+                            title: const Text('Вы уверены что хотите вернуть книгу?'),
+                            actions: [ElevatedButton(onPressed: (){
+                              Navigator.pop(context);
+                            }, child: const Text('Нет')),
+                            ElevatedButton(onPressed: (){
+                              returnBook(request['id'], id,request['book_id']);
+                              Navigator.pop(context);
+                            }, child: const Text('Да'))
+                          ],
+                          )
+                          );
+                          
                         }
                       },                     
                       title: RichText(
@@ -87,7 +108,7 @@ class _UserPageState extends State<UserPage> {
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: _refreshRequests, // Обновление данных при нажатии
+        onPressed: _refreshRequests,
         child: const Icon(Icons.refresh),
       ),
     );

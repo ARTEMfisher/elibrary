@@ -14,13 +14,12 @@ class _BookReturnsPageState extends State<BookReturnsPage> {
   @override
   void initState() {
     super.initState();
-    _bookReturns = fetchBookReturns(); // Запрос списка возвратов
+    _bookReturns = fetchBookReturns(); 
   }
 
-  // Функция для обновления данных
   void _refreshData() {
     setState(() {
-      _bookReturns = fetchBookReturns(); // Перезагружаем данные
+      _bookReturns = fetchBookReturns(); 
     });
   }
 
@@ -32,11 +31,11 @@ class _BookReturnsPageState extends State<BookReturnsPage> {
         actions: [
           IconButton(
             icon: const Icon(Icons.refresh),
-            onPressed: _refreshData, // Перезагружаем данные по нажатию
+            onPressed: _refreshData, 
           ),
         ],
       ),
-      body: FutureBuilder<List<Map<String, dynamic>>>( // FutureBuilder для асинхронного запроса данных
+      body: FutureBuilder<List<Map<String, dynamic>>>( 
         future: _bookReturns,
         builder: (context, snapshot) {
           if (snapshot.connectionState == ConnectionState.waiting) {
@@ -51,9 +50,8 @@ class _BookReturnsPageState extends State<BookReturnsPage> {
               itemCount: bookReturns.length,
               itemBuilder: (context, index) {
                 final bookReturn = bookReturns[bookReturns.length-index-1];
-                final bookId = bookReturn['book_id']; // ID книги
+                final bookId = bookReturn['book_id']; 
 
-                // Запросить название книги по её ID
                 return FutureBuilder<String?>(
                   future: fetchBookTitle(bookId),
                   builder: (context, titleSnapshot) {
@@ -61,12 +59,12 @@ class _BookReturnsPageState extends State<BookReturnsPage> {
                       return const Center(child: CircularProgressIndicator());
                     } else if (titleSnapshot.hasError) {
                       return ListTile(
-                        title: Text('Ошибка загрузки названия книги'),
+                        title: const Text('Ошибка загрузки названия книги'),
                         subtitle: Text('Статус возврата: ${bookReturn['is_returned'] ? "Возвращена" : "Не возвращена"}'),
                       );
                     } else if (!titleSnapshot.hasData || titleSnapshot.data == null) {
                       return ListTile(
-                        title: Text('Название книги не найдено'),
+                        title: const Text('Название книги не найдено'),
                         subtitle: Text('Статус возврата: ${bookReturn['is_returned'] ? "Возвращена" : "Не возвращена"}'),
                       );
                     } else {
@@ -75,29 +73,28 @@ class _BookReturnsPageState extends State<BookReturnsPage> {
                           onTap: () {
                             showDialog(context: context, 
                             builder:(context)=>AlertDialog(
-                              title:Text('Вы уверены, что пользователь сдал книгу?'),
+                              title:const Text('Вы уверены, что пользователь сдал книгу?'),
                               actions: [
                                 ElevatedButton(
                                   onPressed: (){
                                     updateReturnStatus(bookReturn['id']);
                                     setState(() {
-                                      // Обновить экран после изменения статуса
-                                      _refreshData(); // Перезагружаем данные
+                                      _refreshData(); 
                                     });
                                   },
-                                  child: Text('Да'),
+                                  child: const Text('Да'),
                                 ),
                                 ElevatedButton(
                                   onPressed: (){
                                     Navigator.pop(context);
                                   },
-                                  child: Text('Нет'),
+                                  child: const Text('Нет'),
                                 ),
                               ],
                             ) );
                             
                           },
-                          title: Text('Книга: ${titleSnapshot.data}'), // Отображаем название книги
+                          title: Text('Книга: ${titleSnapshot.data}'), 
                           subtitle: Text('Статус возврата: ${bookReturn['is_returned'] ? "Возвращена" : "Не возвращена"}'),
                         ),
                       );

@@ -76,7 +76,6 @@ class _RegistrationState extends State<Registration> {
                                 ScaffoldMessenger.of(context).showSnackBar(
                                   const SnackBar(content: Text('Ошибка регистрации. Попробуйте снова')));
                               }
-                                        // Закрытие текущего экрана
                             }
                           },
                           child: const Text('Зарегистрироваться'),

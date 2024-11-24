@@ -71,8 +71,6 @@ class _SearchBarState extends State<SearchBar> {
     try {
       final response = await searchBooks(query);
       setState(() => _searchResults = response);
-
-      // Показываем результаты в Bottom Sheet
       _showSearchResults(context, _searchResults);
     } catch (e) {
       setState(() => _searchResults = []);
@@ -87,7 +85,7 @@ class _SearchBarState extends State<SearchBar> {
   void _showSearchResults(BuildContext context, List<dynamic> results) {
     showModalBottomSheet(
       context: context,
-      isScrollControlled: true, // Для возможности прокрутки
+      isScrollControlled: true, 
       shape: const RoundedRectangleBorder(
         borderRadius: BorderRadius.vertical(top: Radius.circular(16.0)),
       ),

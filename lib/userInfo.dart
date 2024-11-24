@@ -38,11 +38,11 @@ class _UserInfoState extends State<UserInfo> {
         future: fetchUserRequestsByID(widget.userId),
         builder: (context, snapshot) {
           if (snapshot.connectionState == ConnectionState.waiting) {
-            return Center(child: CircularProgressIndicator());
+            return const Center(child: CircularProgressIndicator());
           } else if (snapshot.hasError) {
             return Center(child: Text('Error: ${snapshot.error}'));
           } else if (!snapshot.hasData || snapshot.data!.isEmpty) {
-            return Center(child: Text('No requests found.'));
+            return const Center(child: Text('Запросы не найдены.'));
           } else {
             final requests = snapshot.data!;
             return ListView.builder(
@@ -54,15 +54,14 @@ class _UserInfoState extends State<UserInfo> {
                     title: RichText(
                           text: TextSpan(
                             text: '${request['book_title']} \nСтатус заявки: ',
-                            // style: TextStyle(color: Colors.black), // Стиль для общего текста
                             children: <TextSpan>[
                               TextSpan(
                                 text: request['status'] == null ? 'Рассматривается' :
                                       (request['status'] == true ? 'Подтверждена' : 'Отказано'),
                                 style: TextStyle(
                                   color: request['status'] == null
-                                      ? Colors.orange  // Оранжевый для "Рассматривается"
-                                      : (request['status'] == true ? Colors.green : Colors.red), // Зеленый для "Подтверждена" и красный для "Отказано"
+                                      ? Colors.orange  
+                                      : (request['status'] == true ? Colors.green : Colors.red), 
                                   fontWeight: FontWeight.bold,
                                 ),
                               ),
@@ -75,8 +74,7 @@ class _UserInfoState extends State<UserInfo> {
             );
           }
         },
-      ),
-      
+      ), 
     );
   }
 }

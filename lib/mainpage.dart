@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:elibrary/widgets/appbar_mainpage.dart';
+import 'widgets/search.dart';
 import 'book.dart';
 import 'widgets/bookinfo.dart';
 
@@ -49,74 +49,61 @@ class _MainPageState extends State<MainPage> {
               itemCount: bookLoader.books.length,
               itemBuilder: (context, index) {
                 final book = bookLoader.books[index];
-                return Card(
-                  margin: const EdgeInsets.all(8.0),
-                  child: Padding(
-                    padding: const EdgeInsets.all(10.0),
-                    child: Row(
-                      mainAxisSize: MainAxisSize.min,
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Image.network(
-                          book.imageUrl,
-                          fit: BoxFit.cover,
-                          width: 120,
-                          height: 180,
-                        ),
-                        const SizedBox(width: 10),
-                        Expanded(
-                          child: Column(
-                            mainAxisSize: MainAxisSize.min,
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            mainAxisAlignment: MainAxisAlignment.spaceAround,
-                            children: [
-                              Column(
+                return InkWell(
+                  onTap:() {
+                    showDialog(
+                      context: context,
+                      builder: (context) => BookInfo(
+                        imageURL: book.imageUrl,
+                        name: book.title,
+                        author: book.author,
+                        isFree: book.isFree,
+                        bookId: book.id,
+                      ),
+                    );
+                  },
+                  child: Card(
+                    margin: const EdgeInsets.all(8.0),
+                    child: Padding(
+                      padding: const EdgeInsets.all(10.0),
+                      child: Row(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Image.network(
+                            book.imageUrl,
+                            fit: BoxFit.contain,
+                            width: 120,
+                            height: 180,
+                          ),
+                          const SizedBox(width: 10),
+                          Expanded(
+                            child: ListTile(
+                              contentPadding: EdgeInsets.zero,
+                              title: Text(
+                                book.title,
+                                style: const TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 16,
+                                ),
+                              ),
+                              subtitle: Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
-                                mainAxisSize: MainAxisSize.min,
                                 children: [
-                                  Text(
-                                    '${book.title},${book.isFree}',
-                                    
-                                    style: const TextStyle(
-                                      fontWeight: FontWeight.bold,
-                                      fontSize: 16,
-                                    ),
-                                  ),
                                   const SizedBox(height: 4),
                                   Text(book.author),
-                                ],
-                              ),
-                              Column(
-                                crossAxisAlignment: CrossAxisAlignment.start,
-                                mainAxisSize: MainAxisSize.min,
-                                children: [
+                                  const SizedBox(height: 8),
                                   Text(
                                     book.isFree ? 'Можно взять' : 'Забронирована',
                                     style: TextStyle(
                                       color: book.isFree ? Colors.green : Colors.red,
                                     ),
                                   ),
-                                  OutlinedButton(
-                                    onPressed: () {
-                                      showDialog(
-                                        context: context,
-                                        builder: (context) => BookInfo(
-                                          imageURL: book.imageUrl,
-                                          name: book.title,
-                                          author: book.author,
-                                          isFree: book.isFree,
-                                          bookId: book.id,
-                                        ),
-                                      );
-                                    },
-                                    child: const Text("Подробнее"),
-                                  ),
                                 ],
                               ),
-                            ],
+                            ),
                           ),
-                        ),
-                      ],
+                        ],
+                      ),
                     ),
                   ),
                 );
@@ -127,10 +114,10 @@ class _MainPageState extends State<MainPage> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () async {
-          // Обновляем данные при нажатии
+          
           await _refreshBooks();
         },
-        child: const Icon(Icons.refresh), // Иконка обновления
+        child: const Icon(Icons.refresh), 
       ),
     );
   }

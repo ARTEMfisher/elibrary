@@ -18,13 +18,12 @@ class _UsersListState extends State<UsersList> {
           future: fetchUsers(),
           builder: (context, snapshot) {
             if (snapshot.connectionState == ConnectionState.waiting) {
-              return Center(child: CircularProgressIndicator());
+              return const Center(child: CircularProgressIndicator());
             } else if (snapshot.hasError) {
-              return Center(child: Text('Ошибка загрузки данных'));
+              return const Center(child: Text('Ошибка загрузки данных'));
             } else if (!snapshot.hasData || snapshot.data!.isEmpty) {
-              return Center(child: Text('Нет пользователей'));
+              return const Center(child: Text('Нет пользователей'));
             } else {
-              // Отображение списка пользователей
               return ListView.builder(
                 itemCount: snapshot.data!.length,
                 itemBuilder: (context, index) {

@@ -2,7 +2,7 @@ import 'package:http/http.dart' as http;
 import 'dart:convert';
 import 'variables.dart';
 
-const String ip = 'http://45.142.122.187:5000/';
+
 
 Future<bool> checkUser(String username, String password) async {
   final url = Uri.parse('${ip}check_user');
@@ -14,7 +14,7 @@ Future<bool> checkUser(String username, String password) async {
       body: json.encode({'username': username, 'password': password}),
     );
 
-    // Проверяем код статуса ответа
+
     if (response.statusCode == 200) {
       final data = json.decode(response.body);
       return data['valid'];
@@ -22,9 +22,9 @@ Future<bool> checkUser(String username, String password) async {
       throw Exception('Failed to check user: ${response.statusCode}');
     }
   } catch (e) {
-    // Возвращаем false в случае ошибки
-    print(e); // Выводим ошибку в консоль для отладки
-    return false; // Или можете пробросить исключение, если это необходимо
+    
+    print(e); 
+    return false; 
   }
 }
 
@@ -40,7 +40,7 @@ Future<bool> addUser(String username, String password) async {
       body: json.encode({'username': username, 'password': password}),
     );
 
-    // Проверяем код статуса ответа
+    
     if (response.statusCode == 201) {
       final data = json.decode(response.body);
       return data['message'];
@@ -81,7 +81,6 @@ Future<List<Map<String, dynamic>>> fetchUsers() async {
     }
   }
 
-  // Метод для получения всех заявок пользователя по ID
   Future<List<dynamic>> getUserRequests(int userId) async {
     final url = Uri.parse('${ip}user_requests_by_id/$userId');
     try {
@@ -106,14 +105,14 @@ Future<List<Map<String, dynamic>>> fetchUsers() async {
     );
 
     if (response.statusCode == 200) {
-      // Возвращаем ID пользователя
+      
       return jsonDecode(response.body)['user_id'];
     } else {
       print('Error: ${jsonDecode(response.body)['message']}');
       return null;
     }
   } catch (e) {
-    // Обработка ошибок подключения
+    
     print('Error: Failed to connect to the server');
     return null;
   }
@@ -159,10 +158,10 @@ Future<Map<String, dynamic>> createRequest(int userId, int bookId) async {
     );
 
     if (response.statusCode == 201) {
-      // Успешный запрос, возвращаем данные
+      
       return {'success': true, 'data': jsonDecode(response.body)};
     } else {
-      // Ошибка сервера или данных
+      
       return {
         'success': false,
         'error': jsonDecode(response.body)['message'] ??
@@ -170,7 +169,6 @@ Future<Map<String, dynamic>> createRequest(int userId, int bookId) async {
       };
     }
   } catch (e) {
-    // Обработка исключений
     return {'success': false, 'error': 'Failed to connect to the server'};
   }
 }
@@ -187,7 +185,7 @@ Future<Map<String, String>?> fetchBookAndUserDetails(int bookId, int userId) asy
       'username': data['username'],
     };
   } else {
-    return null;  // В случае ошибки возвращаем null
+    return null; 
   }
 }
 
@@ -237,10 +235,10 @@ Future<String?> fetchBookTitle(int bookId) async {
   final url = Uri.parse('${ip}book_title/$bookId');
 
   try {
-    final response = await http.get(url); // Выполняем GET-запрос
+    final response = await http.get(url); 
     if (response.statusCode == 200) {
-      final data = jsonDecode(response.body); // Парсим JSON
-      return data['title']; // Возвращаем название книги
+      final data = jsonDecode(response.body); 
+      return data['title'];
     } else if (response.statusCode == 404) {
       throw Exception('Книга не найдена');
     } else {
@@ -248,7 +246,7 @@ Future<String?> fetchBookTitle(int bookId) async {
     }
   } catch (e) {
     print('Ошибка запроса: $e');
-    return null; // Возвращаем null в случае ошибки
+    return null; 
   }
 }
 
@@ -266,29 +264,25 @@ Future<void> returnBook(int requestId, int userId, int bookId) async {
   );
 
   if (response.statusCode == 201) {
-    // Если запрос на возврат был добавлен успешно
     print('Book return request added successfully');
   } else {
-    // Обработка ошибки
     print('Error adding return request: ${response.body}');
   }
 }
 
 Future<void> updateReturnStatus(int returnId) async {
   final response = await http.put(
-    Uri.parse('${ip}update_return_status'), // Путь к API для обновления статуса возврата
+    Uri.parse('${ip}update_return_status'),
     headers: {'Content-Type': 'application/json'},
     body: json.encode({
       'return_id': returnId,
-      'is_returned': true, // Устанавливаем статус возврата на true
+      'is_returned': true,
     }),
   );
 
   if (response.statusCode == 200) {
-    // Успешно обновили статус возврата
     print('Return status updated');
   } else {
-    // Ошибка при обновлении статуса возврата
     throw Exception('Failed to update return status');
   }
 }
@@ -312,7 +306,6 @@ Future<List<Map<String, dynamic>>> fetchRequests() async {
   try {
     final response = await http.get(resronse);
     if (response.statusCode == 200) {
-      // Преобразуем JSON-ответ в список карт
       final List<dynamic> jsonResponse = json.decode(response.body);
       return jsonResponse.cast<Map<String, dynamic>>();
     } else {
