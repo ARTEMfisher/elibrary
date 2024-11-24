@@ -1,5 +1,6 @@
+import 'package:elibrary/routes.dart';
 import 'package:flutter/material.dart';
-import 'usersList.dart';
+
 
 
 class AdminPage extends StatefulWidget {
@@ -16,10 +17,33 @@ class _AdminPageState extends State<AdminPage> {
       appBar: AppBar(
         title: const Text('Функции Администратора'),
       ),
-      body: ListView(
-        children: [
-          
-        ],
+      body: Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: ListView(
+          children: [
+            ElevatedButton(
+              
+              onPressed: (){
+                Navigator.pushNamed(context, AppRoutes.usersList);
+              },
+              child: Text('Пользователи'),
+            ),
+            SizedBox(height: 10,),
+            ElevatedButton(
+              onPressed: (){
+                Navigator.pushNamed(context, AppRoutes.requests);
+              },
+              child: Text('Заявки'),
+            ),
+            SizedBox(height: 10,),
+            ElevatedButton(
+              onPressed: (){
+                Navigator.pushNamed(context, AppRoutes.returns);
+              },
+              child: Text('Возвраты'),
+            ),
+          ],
+        ),
       ),
       
       );

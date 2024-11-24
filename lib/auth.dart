@@ -77,10 +77,10 @@ class _AuthoriseState extends State<Authorise> {
                               bool exists = await checkUser(_login, _password);
 
                               if (exists) {
-                                auth=true;
                                 if(_login=='admin'){
                                   isAdmin=true;
                                 }
+                                getUserIdByUsername(_login);
                                 Navigator.pushReplacementNamed(context, AppRoutes.main);
                               } else {
                                 ScaffoldMessenger.of(context).showSnackBar(
@@ -89,12 +89,6 @@ class _AuthoriseState extends State<Authorise> {
                             }
                           },
                           child: const Text('Войти'),
-                        ),
-                        ElevatedButton(
-                          onPressed: () {  
-                            Navigator.pushNamed(context, AppRoutes.main);                                     
-                          },
-                          child: const Text('Войти без авторизации'),
                         ),
                         ElevatedButton(
                           onPressed: () {  

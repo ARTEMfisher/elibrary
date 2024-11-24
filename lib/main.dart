@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:elibrary/auth.dart';
 import 'package:elibrary/routes.dart';
+import 'package:window_size/window_size.dart';
 
-void main() {
+void main()  {
+  WidgetsFlutterBinding.ensureInitialized();
   runApp(const MyApp());
+  
 }
 
 class MyApp extends StatelessWidget {
